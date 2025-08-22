@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgba(231, 231, 219, 1);
+    color: rgba(0, 0, 0, 1);
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer components {
+  .app-container {
+    max-width: 390px;
+    margin: 0 auto;
+    min-height: 100vh;
+    background-color: rgba(231, 231, 219, 1);
+  }
+  
+  .card-bg {
+    background-color: rgba(249, 249, 245, 1);
+  }
+  
+  .primary-bg {
+    background-color: rgba(249, 129, 110, 1);
+  }
+  
+  .primary-text {
+    color: rgba(249, 129, 110, 1);
+  }
+  
+  .secondary-text {
+    color: rgba(128, 128, 128, 1);
+  }
+  
+  .nav-item {
+    @apply flex flex-col items-center gap-1 cursor-pointer transition-all duration-200;
+  }
+  
+  .nav-item:hover {
+    @apply brightness-95;
+  }
+  
+  .product-card {
+    @apply hover:shadow-lg hover:scale-102 active:scale-98 cursor-pointer transition-all duration-200;
+  }
+  
+  .primary-button {
+    @apply hover:brightness-90 hover:scale-105 active:scale-95 shadow-lg hover:shadow-xl cursor-pointer transition-all duration-200;
+  }
+  
+  .secondary-button {
+    @apply hover:brightness-95 active:scale-98 cursor-pointer transition-all duration-200;
+  }
+}
