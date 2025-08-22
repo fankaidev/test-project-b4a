@@ -1,0 +1,147 @@
+[
+  {
+    "node_id": "2:1",
+    "title": "product_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "# CosplayConnect Summary\n\nCosplayConnect is a dedicated mobile platform designed to empower cosplay enthusiasts by integrating e-commerce, social networking, and event coordination. The platform aims to address the fragmented cosplay experience and limited community coordination tools by providing a seamless flow between features, trust and reliability in transactions and interactions, a pleasant user experience, and sustainable evolution.\n\n## Key Features\n\n- Integrated e-commerce for buying, selling, and renting costumes and props\n- Social networking for connecting with peers and coordinating group projects or meet-ups\n- Event coordination for discovering and attending conventions\n\n## Target Users\n\n- Aspiring cosplayers looking for supportive communities and easy access to costumes\n- Master crafters/sellers seeking to sell or rent their creations to a niche audience\n- Convention goers focused on attending events, meeting new people, and coordinating group cosplays\n\n## Design Principles\n\n- Seamless flow between features\n- Trust and reliability in transactions and interactions\n- Pleasant user experience evoking excitement, camaraderie, and inspiration\n- Sustainable evolution to support future feature expansion\n\n## Competitive Landscape\n\nCosplayConnect distinguishes itself from general marketplaces (e.g., Etsy, eBay), social platforms (e.g., Facebook Groups, Discord), and event discovery platforms (e.g., Eventbrite, Meetup) by offering a specialized platform for the cosplay community, integrating e-commerce, social networking, and event coordination.",
+    "tags": "{\"markdown_type\": \"product_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/product_plan.md"
+  },
+  {
+    "node_id": "3:1",
+    "title": "Home Dashboard_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "The Home Dashboard is the main landing page, providing a personalized feed, quick access to core features, trending items, and upcoming events. It includes a top header bar with search and notification functionality, a dynamic content feed, quick access modules, and a bottom navigation bar for primary links.",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/Home Dashboard_screen_plan.md"
+  },
+  {
+    "node_id": "7:1",
+    "title": "Profile & Chat_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "This component manages user profiles, social connections, and in-app messaging. It features a profile header with user information, a user information and activity overview section, a chat/messages list, a social connections section, and a bottom navigation bar for primary links.",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/Profile & Chat_screen_plan.md"
+  },
+  {
+    "node_id": "6:1",
+    "title": "Squad Up_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "The Squad Up feature allows users to form, join, and manage groups for convention visits and group cosplay activities. It includes a search bar, dedicated areas for user squads and discovery, squad invitations and requests, and a bottom navigation bar with primary links.",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/Squad Up_screen_plan.md"
+  },
+  {
+    "node_id": "5:1",
+    "title": "Convention Calendar_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "The Convention Calendar feature allows users to browse upcoming cosplay conventions and events, with functionality for RSVP and location-based discovery. It includes a top header bar with search and filtering options, event listings with key details and RSVP options, a location-based discovery map, and a bottom navigation bar for primary links.",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/Convention Calendar_screen_plan.md"
+  },
+  {
+    "node_id": "4:1",
+    "title": "Marketplace_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "The Marketplace is an e-commerce hub for buying, selling, and renting cosplay items. Key features include a top header bar with search and filter options, interactive category and filter chips, a product listings grid, a floating \"Sell/Rent\" action button, and a bottom navigation bar with primary links.",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/Marketplace_screen_plan.md"
+  },
+  {
+    "node_id": "8:1",
+    "title": "cosplayconnect_dusk_style_guide.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "# Soft Float - Dusk Design Overview\nThe Soft Float - Dusk design is a comprehensive visual style guide that outlines the primary elements for creating a cohesive user interface. It covers various aspects, including color palette, typography, border radius, layout, and spacing.\n\n## Key Design Elements\n- **Color Palette**: Defined by primary colors (`#F9816E`, `#FFBB99`, `#E5684F`), background colors (`#E7E7DB`, `#F9F9F5`, `#FFFFFFE6`), text colors (`#000000`, `#808080`, `#999999`), and functional colors (`#A6DBE5` for success, `#F4B495` for warning).\n- **Typography**: Utilizes a base font (`-apple-system, BlinkMacSystemFont, \"Segoe UI\"`) with specific line heights and font sizes for different text roles (caption, body, card title, page title, headline, display).\n- **Border Radius**: Specifies rounded corners for buttons, inputs, cards, and containers, with no traditional borders or dividers.\n- **Layout & Spacing**: Based on a spacing scale (tight, compact, standard, comfortable) for margins, padding, and gaps between elements, ensuring a clean and user-friendly interface.\n- **Tailwind Component Examples**: Provides guidelines for creating basic UI components like progress bars, buttons, labels/tags/badges, and data entry fields using utility classes.\n\n## Implementation Notes\n- The design emphasizes the use of surface color contrast and spacing to create boundaries, with shadows used sparingly for floating elements.\n- It includes a detailed mobile layout template, outlining the structure for the top fixed header, main scrollable content area, and bottom fixed area, ensuring consistency across different screen sizes.\n- Utility classes from Tailwind CSS are recommended for styling components, avoiding custom CSS classes and styles.\n\nThis design system is intended to provide a clear, consistent, and aesthetically pleasing user experience across various platforms and devices.",
+    "tags": "{\"platform\": \"mobile\"}",
+    "path": "workspace/paraflow/assets/markdown/cosplayconnect_dusk_style_guide.md"
+  },
+  {
+    "node_id": "9:1",
+    "title": "Home Dashboard",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file represents a mobile application screen for a cosplay community platform. The screen is titled \"Home Dashboard\" and appears to be the main hub for users to navigate through the app. \n\nThe top navigation bar includes a logo, a notification button, and a profile picture. Below the navigation bar, there are several sections: \n\n1. A welcome message with the user's name and a call-to-action to discover trending cosplay items and connect with the community.\n2. A \"Quick Access\" section with tiles for Marketplace, Conventions, and Squad Up.\n3. A \"Trending Now\" section showcasing popular cosplay items with images, prices, and ratings.\n4. A \"Community Highlights\" section featuring posts from community members, including images, text, and engagement metrics.\n5. An \"Upcoming Events\" section listing conventions with dates, locations, and attendance information.\n6. A \"Squad Invitations\" section with an invitation to join a group cosplay for an upcoming convention.\n\nThe bottom navigation bar has tabs for Home, Marketplace, Conventions, Squad Up, and Profile.",
+    "path": ""
+  },
+  {
+    "node_id": "11:1",
+    "title": "Squad Up",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file appears to be a user interface for a squad management system, specifically designed for cosplay groups. The page is divided into several sections, including a header with navigation, a main content area, and a footer with a navigation bar.\n\nThe main content area features several sections:\n\n1. **My Squads**: A list of squads the user is a part of, with information about each squad, including the squad name, number of members, and a button to open the squad's chat.\n2. **Discover Squads**: A list of squads the user can join, with information about each squad, including the squad name, number of members, and a button to request to join the squad.\n3. **Invitations & Requests**: A list of invitations to join squads and requests from other users to join the user's squads.\n\nThe footer navigation bar includes links to different sections of the app, including Home, Marketplace, Conventions, Squad Up, and Profile.\n\nThe HTML file uses a custom CSS framework, with classes such as `__paraflow-fa-fas` and `__paraflow-input-wrapper`, and utilizes Font Awesome icons. The file also includes JavaScript code, likely for handling user interactions and updating the UI dynamically.",
+    "path": ""
+  },
+  {
+    "node_id": "10:1",
+    "title": "Convention Calendar",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file represents a mobile screen for a convention calendar application. The screen is divided into several sections: \n1. A header with a location identifier (Los Angeles) and navigation buttons.\n2. A filtering section with options for \"This Month\", \"Within 50mi\", \"Anime\", and \"Popular\".\n3. A main content section displaying a list of upcoming conventions, including event names, dates, locations, and attendance information.\n4. A call-to-action button to \"Load More Events\" at the bottom of the screen.\n5. A fixed navigation bar at the bottom with icons for Home, Marketplace, Conventions, Squad Up, and Profile.\nThe design is responsive, with a focus on clean typography, ample whitespace, and a consistent color scheme.",
+    "path": ""
+  },
+  {
+    "node_id": "12:1",
+    "title": "Profile & Chat",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file represents a user profile page for a cosplayer, specifically \"Alex Thompson\" (@cosplay_alex), on a social media or community platform. The page has several sections: \n1. A header with the profile picture, username, and a navigation menu.\n2. A profile section showing the user's information, including their bio, followers, following, and posts.\n3. A \"My Activity\" section, which includes statistics such as \"My Listings,\" \"My Orders,\" and \"My Events.\"\n4. A \"Recent Messages\" section displaying recent conversations.\n5. A \"Connect with Cosplayers\" section suggesting other users to follow.\n6. A \"Recent Followers\" section showing the latest users who have followed the profile owner.\n7. A fixed navigation bar at the bottom providing links to Home, Marketplace, Conventions, Squad Up, and the user's Profile.",
+    "path": ""
+  },
+  {
+    "node_id": "13:1",
+    "title": "Marketplace",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file represents a marketplace screen for cosplay items. The page has a header with a search bar and navigation buttons. The main content area displays a grid of cosplay items, each with an image, title, price, and rating. Users can filter items by category, sort by popularity, and view item details. The page also features a bottom navigation bar with links to home, marketplace, conventions, squad up, and profile. The design is responsive and uses a mix of fonts, including Roboto, Open Sans, and Font Awesome.",
+    "path": ""
+  },
+  {
+    "node_id": "15:1",
+    "title": "聊天对话页_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "CosplayConnect平台的聊天对话页提供完整的即时通讯体验，包含顶部聊天头部、消息历史区域和底部输入区域。顶部聊天头部显示对话对象的信息和操作按钮，消息历史区域展示按时间顺序排列的消息记录，底部输入区域允许用户输入和发送多种类型的消息。",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/聊天对话页_screen_plan.md"
+  },
+  {
+    "node_id": "16:1",
+    "title": "聊天对话页",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "此 HTML 文件描述了一个聊天对话页面，包括头部、主体和底部。头部包含返回按钮、聊天对象的头像和名称，以及更多操作按钮。主体部分显示聊天记录，每条记录包括发送者的头像、消息内容和时间。底部包含输入框、发送按钮和其他功能按钮。聊天记录中展示了用户之间关于 cosplay 服装的讨论，包括价格、细节等信息。",
+    "path": ""
+  },
+  {
+    "node_id": "17:1",
+    "title": "商品详情页_screen_plan.md",
+    "type": "asset",
+    "asset_type": "markdown",
+    "summary": "本Markdown文件描述了Cosplay商品详情页的布局和功能，包括顶部导航栏、商品图片轮播展示、商品基本信息、购买/租赁选项、卖家资料、商品描述、用户评价、相关推荐商品和底部操作栏等内容。",
+    "tags": "{\"markdown_type\": \"screen_plan\"}",
+    "path": "workspace/paraflow/assets/markdown/商品详情页_screen_plan.md"
+  },
+  {
+    "node_id": "18:1",
+    "title": "商品详情页",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "This HTML file represents a product details page for an Attack on Titan Survey Corps cosplay costume. The page includes a header with navigation buttons, a main section with product images, descriptions, and reviews, as well as a footer with call-to-action buttons to add the product to cart or rent it now. The product is described as a high-quality costume with authentic military-style design and detailed armor pieces, available for rent at $45/day. The page also features customer reviews, with an average rating of 4.9 out of 5 stars, and suggests similar products, such as Demon Slayer Tanjiro, MHA School Uniform, and Hokage Cloak costumes.",
+    "path": ""
+  },
+  {
+    "node_id": "19:1",
+    "title": "聊天对话页",
+    "type": "screen",
+    "style_guide_id": "8:1",
+    "summary": "此 HTML 文件描述了一个聊天对话界面，界面包括头部、主体和底部。头部包含标题、返回按钮、用户头像和状态。主体部分显示了聊天记录，包括文本和图片。底部包含输入框、发送按钮和其他功能按钮。界面整体采用现代化的设计风格，考虑到用户体验和移动设备的适配。",
+    "path": ""
+  }
+]
